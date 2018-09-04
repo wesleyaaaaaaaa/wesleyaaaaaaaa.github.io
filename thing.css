@@ -1,0 +1,127 @@
+body {
+    font-family: arial;
+    background-color: rgb(40,40,40);
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+
+.container{
+        width:50%;
+        margin:auto; 
+        overflow: hidden;
+}
+
+header{
+    background: rgb(90,90,90);
+    color:white;
+    border-bottom:lime 3px solid;
+    min-height: 120px;
+}
+
+header h1{
+    float:left;
+}
+
+nav{
+    float: right;
+}
+
+header li{
+    
+    display: inline;
+    color:lime;
+    margin: 100px;
+    font-size: 16px;
+    
+}
+
+header a{
+    text-decoration:none;
+    color:lime;
+    text-transform: uppercase;
+    
+}
+
+#showcase{
+    background:url(http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bc14.png) no-repeat -150px -20px;
+    min-height: 500px;
+    max-height: 600px;
+}
+
+#showcase h1{
+    margin-top:-50px;
+    width:40%;
+    margin: auto;
+}
+
+#showcase p{
+    width: 40%;
+    margin:auto;
+}
+
+footer li{
+    color:lime;
+    font-size: 10px;
+    background-color: rgb(90,90,90);
+    min-width: 500px;
+    border-color: lime;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+footer pre{
+    color:lime;
+    font-size: 10px;
+    background-color: rgb(90,90,90);
+    min-width: 390px;
+    border-top:lime 3px solid;
+    
+    float:left;
+    margin-bottom: 0px;
+    
+}
+
+header .highlight{
+    color:lime;
+    font-weight:bold;
+}
+
+header a:hover{
+    font-weight: bold;
+    color:rgb(0,0,0);
+}
+
+footer a:hover{
+    font-weight: bold;
+    color:red;
+}
+
+#main{
+    text-align:left
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    margin-bottom: 40px;
+    margin:right: 20px
+}
+#sidebar2{
+    float:left
+    width: 20%;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+#main li{
+    list-style: none;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+@media(max-width: 770px){
+    body{color: red;
+    }
+}

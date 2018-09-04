@@ -1,0 +1,55 @@
+body {
+    font-family: arial;
+    background-color: rgb(40,40,40);
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+
+.container{
+        width:50%;
+        margin:auto; 
+        overflow: hidden;
+}
+
+header{
+    background: rgb(90,90,90);
+    color:white;
+    border-bottom:lime 3px solid;
+    min-height: 120px;
+}
+
+.container2{
+        width:50%;
+        text-align: center;
+        margin:auto;
+}
+header h1{
+    float:left;
+}
+
+nav{
+    float: right;
+}
+
+header li{
+    
+    display: inline;
+    color:lime;
+    margin: 10px;
+    font-size: 16px;
+    
+}
+
+header a{
+    text-decoration:none;
+    color:lime;
+    text-transform: uppercase;
+    
+}
+
+#showcase{
+    background:url() no-repeat -150px -20px;
+    opacity:(50);
+}
