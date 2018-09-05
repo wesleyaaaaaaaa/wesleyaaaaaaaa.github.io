@@ -53,21 +53,10 @@ footer pre{
     margin-bottom: 0px;
 }
 
-.container {
-  position: absolute;
-  width: 50%;
-  margin-left: 490px;
-}
-
 .container img {
-  width: 100%;
-  height: auto;
-}
-
-#picture{
-    background:url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg) no-repeat -150px -20px;
-    min-height: 500px;
-    max-height: 600px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 ul {
@@ -94,21 +83,30 @@ nav {
     border-top:lime 3px solid;
     width: 100%;
 }
-
-p{
-
+.back1{
+    background:url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg) no-repeat -150px -20px;
+    min-height: 500px;
+    max-height: 600px;
+    border: 2px solid black;
+    width: 100%;
 }
-
-#picture p{
-margin: 5%;
+.box1{
+  margin: 40px;
+  background: rgba(76, 175, 80, 0.3);
+  border: 1px solid black;
+}
+.box1 p{
+    margin: 5%;
   font-weight: bold;
   color: white;
 }
-
-.saucy{
-    background: rgba(76, 175, 80, 0.3);
+.box2{
+  margin: 40px;
+  background: rgba(76, 175, 80, 0.3);
   border: 1px solid black;
-  margin-left: 30px;
-  margin-right: 30px;
 }
-  
+.box2 p{
+    margin: 5%;
+  font-weight: bold;
+  color: white;
+}
