@@ -1,0 +1,199 @@
+header{
+background: rgb(90,90,90);
+    color:white;
+    border-bottom:lime 3px solid;
+    min-height: 120px;
+}
+.test{
+        width:100%;
+        margin:auto; 
+        overflow: hidden;
+}
+body {
+    font-family: Times;
+    background-color: rgb(50,50,50);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(255,255,255);
+     background:url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg) repeat -150px -20px;
+    min-height: 500px;
+    max-height: 10000px;
+    display: block;
+}
+
+header li{ 
+    display: inline;
+}
+
+header .test .highlight{
+    color:DodgerBlue;
+    font-weight:bold;
+    font-size: 25px;
+    text-shadow: 0 0 15px rgba(176,224,230,0.5);
+}
+
+header .test .nothighlight{
+    color:PowderBlue;
+    font-size: 25px;
+    font-weight:bold;
+    text-shadow: 0 0 15px rgba(176,224,230,1);
+}
+
+header .navv .woah{
+    color:GoldenRod;
+    font-size: 25px;
+    font-weight:bold;
+    text-shadow: 0 0 30px rgba(176,224,230,1);
+}
+
+header .navv .unwoah{
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+    text-shadow: 0 0 20px rgba(176,224,230,1);
+}
+
+.navv li{
+    color:springgreen;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.thing {
+    background-color: rgb(70,70,70);
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 25px rgba(176,224,230,1), 1px 1px 18px rgba(176,224,230,1), 1px 1px 12px rgba(176,224,230,1), 0 0 12px rgba(0,0,255,0.9);
+} 
+
+footer pre{
+    color:lime;
+    font-size: 10px;
+    background-color: rgb(90,90,90);
+    min-width: 390px;
+    border-top:lime 3px solid;
+    float:left;
+    margin-top: 20px;
+}
+
+.container img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.test ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.test li {
+    float:left;
+}
+.navv li {
+    float:right;
+}
+.test li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.test li a:hover {
+    background-color: rgb(140,140,140);
+}
+nav {
+    background-color: lime;
+    border-top:lime 3px solid;
+    width: 100%;
+}
+.back1{
+    background:url(https://theunboundedspirit.com/wp-content/uploads/2016/09/running-man-city.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    overflow: hidden;
+}
+.back2{
+    background:url(https://life-cdn.global.ssl.fastly.net/life/wp-content/uploads/2013/08/Running-Form_1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    overflow: hidden;
+}
+.back3{
+    background:url(https://christianindex.org/wp-content/uploads/2016/09/man-on-mountain-victory-SLDR.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    overflow: hidden;
+}
+.box1{
+  margin: 40px;
+  background: rgba(76, 175, 80, 0.45);
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.box1 p{
+    margin: 5%;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.box2{
+  margin: 40px;
+  background: rgba(76, 175, 80, 0.45);
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.box2 p{
+    margin: 5%;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+   text-shadow: 1px 1px 100px rgba(176,224,230,1), 1px 1px 75px rgba(176,224,230,1), 1px 1px 50px rgba(176,224,230,1), 0 0 50px rgba(0,0,255,0.9);
+   font-variant: small-caps;
+   font-family: Jazz LET;
+   font-size: 60px
+}
+
+.box1:hover{
+  background: rgba(76, 175, 80, 0.9);
+}
+
+.box2:hover{
+  background: rgba(76, 175, 80, 0.9);
+}
+
+.box1:hover p{
+font-size: 30px;
+}
+
+.box2:hover p{
+font-size: 30px;
+}
