@@ -146,10 +146,11 @@ nav {
     overflow: hidden;
 }
 .box1{
-  margin: 40px;
+  margin: 80px;
   background: rgba(76, 175, 80, 0.45);
   border: 1px solid black;
   border-radius: 25px;
+  text-indent: 100px;
 }
 .box1 p{
   font-weight: bold;
@@ -158,10 +159,11 @@ nav {
   margin: 1%;
 }
 .box2{
-  margin: 40px;
+  margin: 80px;
   background: rgba(76, 175, 80, 0.45);
   border: 1px solid black;
   border-radius: 25px;
+  text-indent: 100px;
 }
 .box2 p{
   font-weight: bold;
@@ -196,4 +198,8 @@ font-size: 30px;
 
 .box2:hover p{
 font-size: 30px;
+}
+
+.no:hover{
+
 }
