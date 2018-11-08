@@ -171,6 +171,19 @@ nav {
   font-size: 30px;
   margin: 1%;
 }
+ .box3{
+  margin: 80px;
+  background: rgba(76, 175, 80, 0.45);
+  border: 1px solid black;
+  border-radius: 25px;
+  text-indent: 100px;
+}
+.box3 p{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin: 1%;
+}
 
 .container {
     margin-top: 20px;
